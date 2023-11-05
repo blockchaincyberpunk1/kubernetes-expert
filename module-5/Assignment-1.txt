@@ -1,0 +1,57 @@
+Creating ConfigMaps and Secrets
+
+Objective: To practice creating ConfigMaps and Secrets.
+
+Task: Provide students with a Kubernetes application that requires configuration data and sensitive information, such as API keys or database passwords. Ask them to create ConfigMaps to store configuration data and Secrets to store sensitive information. Students should then mount these ConfigMaps and Secrets into pods and demonstrate how the application accesses them.
+
+Instructions:
+
+Step 1: Application Setup (15 points)
+
+Provide students with a sample Kubernetes application that includes one or more pods requiring configuration data or sensitive information. Explain the purpose of this application and the importance of separating configuration data from secrets.
+
+Describe the types of data that should be stored in ConfigMaps (non-sensitive configuration data) and Secrets (sensitive information) and provide examples. Ensure students understand the distinction.
+
+Step 2: ConfigMap Creation (25 points)
+
+Assign students the task of creating a ConfigMap to store the non-sensitive configuration data required by the application. They should write a YAML manifest for the ConfigMap.
+
+Instruct students to populate the ConfigMap with sample configuration data. This could include settings like environment variables, application settings, or any other configuration that the application requires.
+
+Step 3: Secret Creation (25 points)
+
+Explain the importance of securely managing sensitive information using Kubernetes Secrets. Describe how Secrets differ from ConfigMaps and why they are used for sensitive data.
+
+Task students with creating a Secret to store sensitive information required by the application. They should write a YAML manifest for the Secret.
+
+Instruct students to populate the Secret with sample sensitive data. This could include database credentials, API keys, or other sensitive information.
+
+Step 4: Pod Configuration (20 points)
+
+Guide students through the process of configuring their pods to access the ConfigMap and Secret data. They should update the pod specifications to include volume mounts and environment variables that reference the ConfigMap and Secret.
+
+Ensure that students understand how to reference ConfigMaps and Secrets in pod specifications and how to securely access sensitive data.
+
+Step 5: Testing and Verification (15 points)
+
+Instruct students to deploy their application pods with the mounted ConfigMaps and Secrets.
+
+Task them with demonstrating that the application can access the configuration data and sensitive information from the ConfigMaps and Secrets.
+
+Step 6: Documentation (10 points)
+
+Require students to create documentation that includes:
+YAML manifests for the ConfigMap and Secret.
+Pod specifications showing how ConfigMaps and Secrets are mounted.
+Proof of successful data access by the application.
+Grading Criteria:
+
+Accurate creation of ConfigMaps and Secrets.
+
+Proper population of ConfigMaps and Secrets with sample data.
+
+Correct configuration of pods to access ConfigMap and Secret data.
+
+Successful demonstration of the application accessing the data.
+
+Comprehensive documentation.

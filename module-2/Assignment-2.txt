@@ -1,0 +1,44 @@
+Kubernetes Architecture Diagram
+
+Objective: To familiarize students with Kubernetes components.
+
+Task: Ask students to create a visual diagram illustrating the architecture of a Kubernetes cluster. Include components like nodes, pods, services, controllers, and any other essential elements. Add labels and explanations to describe each component's role.
+
+Instructions:
+
+Step 1: Understanding Kubernetes Components (10 points)
+
+Begin by providing students with a brief overview of essential Kubernetes components. Explain the roles and functions of components like nodes, pods, services, controllers, and the Kubernetes master.
+Step 2: Creating the Architecture Diagram (40 points)
+
+Instruct students to create a visual architecture diagram of a Kubernetes cluster. They can use any digital drawing tool or software of their choice, such as draw.io, Lucidchart, or even hand-drawn diagrams scanned or photographed.
+
+The diagram should include the following components:
+
+Kubernetes Master Node: Clearly label and illustrate the Kubernetes master node, which manages the entire cluster.
+
+Worker Nodes: Include multiple worker nodes and label them accordingly. Explain that these nodes run containers and execute tasks.
+
+Pods: Add pods within the worker nodes. Label and describe how pods are the smallest deployable units in Kubernetes, containing one or more containers.
+
+Services: Include service objects to demonstrate how they provide network connectivity to pods. Label and explain the role of services in load balancing and service discovery.
+
+Controllers: Represent various types of controllers, such as Replication Controllers, Replica Sets, and Deployments. Label and explain how controllers maintain the desired pod state.
+
+Kubelet and Kube Proxy: Include kubelet and kube-proxy components on worker nodes. Describe their roles in container management and network routing.
+
+Step 3: Adding Explanations (30 points)
+
+Instruct students to add explanations and labels to each component in their diagram. These explanations should be concise and clarify the function of each component within the Kubernetes architecture.
+Step 4: Submission (10 points)
+
+Ask students to submit their completed Kubernetes architecture diagrams through the designated submission method (e.g., email, learning management system).
+Grading Criteria:
+
+Accuracy and completeness of the architecture diagram, including all essential Kubernetes components.
+
+Clarity of labels and explanations for each component.
+
+Adherence to proper diagram conventions (e.g., clear formatting, legible text, appropriate use of shapes and connectors).
+
+Overall quality of the visual representation of Kubernetes architecture.

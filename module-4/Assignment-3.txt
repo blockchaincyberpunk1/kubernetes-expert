@@ -1,0 +1,53 @@
+Implementing Network Policies
+
+Objective: To learn how to apply network policies for pod communication.
+
+Task: Provide students with a multi-tiered application consisting of frontend, backend, and database pods. Instruct them to implement Kubernetes network policies to restrict communication between these pods. Students should write policies that allow or deny traffic based on specific criteria, such as pod labels or namespaces.
+
+Instructions:
+
+Step 1: Multi-Tiered Application Deployment (20 points)
+
+Provide students with YAML manifests for a multi-tiered application. This application should consist of the following pods:
+
+Frontend pod(s)
+Backend pod(s)
+Database pod(s)
+Ensure that these pods are labeled appropriately so that students can reference these labels in their network policies.
+
+Instruct students to deploy this multi-tiered application in a Kubernetes cluster.
+
+Step 2: Network Policy Definition (30 points)
+
+Explain to students that network policies in Kubernetes are used to control the communication between pods. They can specify rules to allow or deny traffic between pods based on labels, namespaces, and other criteria.
+
+Assign students the task of creating Kubernetes network policies to restrict communication between the pods in the multi-tiered application. They should write policies that:
+
+Allow communication only from the frontend pods to the backend pods.
+Allow communication only from the backend pods to the database pods.
+Deny all other communication between pods.
+Students should write the necessary YAML manifests for these network policies.
+
+Step 3: Testing and Verification (20 points)
+
+Ask students to test the network policies by attempting communication between pods that should be allowed and pods that should be denied. They should provide evidence of successful and unsuccessful communication.
+Step 4: Documentation (15 points)
+
+Students should provide documentation that includes the following:
+YAML manifests for the network policies they created.
+A description of how network policies work in Kubernetes and why they are essential.
+Test results showing the outcomes of communication attempts based on the policies.
+Step 5: Discussion (15 points)
+
+Organize a class discussion or presentation where students share their experiences. They should explain the significance of network policies in securing pod-to-pod communication and discuss any challenges they encountered during the assignment.
+Grading Criteria:
+
+Correct deployment of the multi-tiered application.
+
+Accurate creation of network policies to restrict communication.
+
+Successful testing and verification of the network policies.
+
+Comprehensive documentation explaining the concept and showing test results.
+
+Active participation in the discussion or presentation.

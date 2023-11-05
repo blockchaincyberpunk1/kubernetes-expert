@@ -1,0 +1,42 @@
+Blue-Green Deployment with Kubernetes
+
+Objective: To implement blue-green deployment using Kubernetes.
+
+Task: Assign students a scenario where they have to implement blue-green deployment for a Kubernetes application. They should create two separate environments (blue and green) with different versions of the application and switch traffic between them. Students need to provide YAML manifests, scripts, and documentation on the blue-green deployment process.
+
+Instructions:
+
+Step 1: Choose a Kubernetes Application (5 points)
+
+Provide students with a choice of Kubernetes applications that they will work on throughout this assignment. This could be a web application, microservices, or any other suitable project.
+Step 2: Set Up Two Environments (15 points)
+
+Instruct students to create two separate Kubernetes environments: blue and green. Each environment should have its own set of Kubernetes manifests, including deployment, service, and ingress resources.
+Step 3: Deploy Initial Versions (20 points)
+
+Ask students to deploy the initial version of the application to both the blue and green environments. They should use different container images for each environment to represent different versions of the application.
+Step 4: Traffic Routing Configuration (20 points)
+
+Students must configure an ingress controller and ingress resources to route traffic to either the blue or green environment. Initially, all traffic should be directed to one environment (e.g., blue).
+Step 5: Deployment Switch (15 points)
+
+Instruct students to write scripts or use Kubernetes tools to switch traffic from one environment to the other (e.g., from blue to green). They should document the steps taken to achieve this switch.
+Step 6: Testing and Verification (15 points)
+
+Encourage students to thoroughly test the blue-green deployment. They should verify that the switch occurs seamlessly and does not disrupt service.
+Step 7: Documentation (10 points)
+
+Students should provide documentation explaining the entire blue-green deployment process. This should include YAML manifests for the deployment, service, and ingress resources, as well as scripts and commands used to switch traffic.
+Grading Criteria:
+
+Successful creation of two separate Kubernetes environments (blue and green).
+
+Correct deployment of initial application versions in both environments.
+
+Accurate configuration of ingress resources and traffic routing.
+
+Effective scripting or tool usage to switch traffic from one environment to the other.
+
+Thorough testing and verification of the blue-green deployment process.
+
+Quality and completeness of documentation explaining the entire blue-green deployment workflow.

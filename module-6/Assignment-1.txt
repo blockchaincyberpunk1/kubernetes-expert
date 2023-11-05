@@ -1,0 +1,53 @@
+Exploring Kubectl Commands
+
+Objective: To become proficient in using the kubectl command-line tool.
+
+Task: Assign students a list of common Kubernetes tasks, such as deploying pods, scaling replicas, inspecting logs, and managing configurations. Instruct them to perform these tasks using kubectl commands. Students should provide the commands they used and the expected results for each task.
+
+Instructions:
+
+Step 1: Task List (5 points)
+
+Provide students with a list of Kubernetes tasks they need to accomplish using kubectl. Tasks can include:
+Deploying a pod.
+Scaling replicas.
+Checking pod status.
+Inspecting pod logs.
+Creating a service.
+Managing configurations using ConfigMaps or Secrets.
+Executing commands inside a running pod.
+Deleting resources.
+Step 2: Task Execution (60 points)
+
+Instruct students to use the kubectl command-line tool to perform the tasks on their own Kubernetes cluster. They can use either a local cluster or a cloud-based Kubernetes environment.
+
+Students should provide the following information for each task:
+
+The kubectl command(s) used to accomplish the task.
+The expected output or result after executing the command(s).
+Any specific challenges or issues they encountered during the task and how they resolved them.
+Step 3: Documentation (15 points)
+
+Require students to document their work. Each task should be documented in a separate section.
+
+The documentation should include:
+
+The task description (as provided in Step 1).
+The kubectl command(s) used for the task.
+Screenshots or logs demonstrating the task's success or failure.
+Any additional notes or explanations relevant to the task.
+Step 4: Submission (20 points)
+
+Instruct students to compile their documentation into a single report or document.
+
+Require them to submit the report along with the kubectl command history (saved as a text file) used for each task.
+
+Grading Criteria:
+
+Accurate execution of tasks using kubectl commands.
+
+Correct and expected results for each task.
+
+Comprehensive documentation with clear explanations.
+
+Submission of both the report and the kubectl command history.

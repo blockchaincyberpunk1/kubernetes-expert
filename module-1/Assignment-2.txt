@@ -1,0 +1,54 @@
+Docker Installation and Basics
+
+Objective: To ensure students are comfortable with Docker.
+
+Task: In this hands-on assignment, students should install Docker on their local machines (if not already done) and then perform basic Docker operations. They can create a Docker container running a simple web application or service, publish a container to Docker Hub, and share their experience and the commands used.
+
+Instructions:
+
+Step 1: Docker Installation (10 points)
+
+Ask students to ensure that Docker is installed on their local machines. Provide them with resources or documentation on how to install Docker for their specific operating system (Windows, macOS, or Linux).
+Step 2: Creating a Docker Container (40 points)
+
+Instruct students to create a Docker container running a simple web application or service of their choice. They can choose to:
+
+Use an official Docker image from Docker Hub and run a container from it.
+Write a simple web application code (e.g., using Node.js, Python, or any language of their choice) and create a Dockerfile to build a custom container image.
+Ensure the web application or service responds to a basic HTTP request (e.g., "Hello, Docker!") when accessed through a web browser or cURL.
+Encourage them to document the process, including the choice of base image (if applicable), Dockerfile content, and the commands used to build and run the container.
+
+Step 3: Publishing to Docker Hub (30 points)
+
+Instruct students to publish their Docker container image to Docker Hub. They should create a Docker Hub account if they don't have one.
+
+Ask them to provide a meaningful name and tag for their container image when pushing it to Docker Hub.
+
+Ensure they document the commands used for publishing the container image.
+
+Step 4: Reflection and Sharing (20 points)
+
+Students should write a reflection or documentation that includes the following:
+
+A brief description of the web application or service they containerized.
+
+Detailed steps, commands, and Dockerfile content used to create the container image.
+
+Any challenges or issues faced during the process and how they were resolved.
+
+A summary of the experience and what they learned from this hands-on exercise.
+
+Step 5: Submission (10 points)
+
+Instruct students to submit their documentation, including the Dockerfile, Docker commands, and the reflection, through the designated submission method (e.g., email, learning management system).
+Grading Criteria:
+
+Successful installation of Docker (if not already installed).
+
+Creation of a Docker container running a web application or service.
+
+Proper documentation of the process, including Dockerfile and commands.
+
+Successful publishing of the container image to Docker Hub.
+
+Quality of the reflection and insights gained from the assignment.

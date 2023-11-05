@@ -1,0 +1,62 @@
+Custom Metrics Collection
+
+Objective: To practice collecting custom metrics from Kubernetes applications.
+
+Task: Provide students with a Kubernetes application that generates custom metrics (e.g., request latency, error rates). Instruct them to set up custom metric collection using Prometheus and configure custom alerts based on these metrics. Students should demonstrate how they collect and visualize custom metrics.
+
+Instructions:
+
+Step 1: Application Selection (5 points)
+
+Provide students with a Kubernetes application or guide them to create one that generates custom metrics. This can be a web service, microservice, or any application they choose.
+Step 2: Custom Metric Definition (10 points)
+
+Instruct students to define at least two custom metrics that their application will generate. These metrics can be related to performance, error rates, or any other relevant aspect.
+
+For example, students can define custom metrics for request latency and error rates.
+
+Step 3: Prometheus Setup (15 points)
+
+Guide students in setting up Prometheus on their Kubernetes cluster if it's not already deployed.
+
+Instruct them to configure Prometheus to scrape and collect custom metrics from their application. They should define appropriate Prometheus configuration files.
+
+Step 4: Alerting Configuration (20 points)
+
+Students should configure custom alerts in Prometheus based on the custom metrics they defined in Step 2. For instance, they can set up alerts for high latency or elevated error rates.
+
+Instruct them to write alerting rules that trigger alerts when custom metrics cross predefined thresholds.
+
+Step 5: Grafana Visualization (20 points)
+
+Students should use Grafana to create dashboards that visualize their custom metrics and the corresponding alerts.
+
+They should demonstrate how to add custom metric visualizations and alert panels to their Grafana dashboards.
+
+Step 6: Custom Metric Demonstration (15 points)
+
+Instruct students to run their Kubernetes application and generate custom metrics.
+
+They should demonstrate that Prometheus is collecting the custom metrics and that Grafana is displaying them on the dashboard.
+
+Step 7: Documentation and Explanation (10 points)
+
+Students should document the entire process, including metric definitions, Prometheus and alerting configurations, Grafana dashboards, and metric demonstrations.
+
+They should explain the importance of the custom metrics they chose to monitor and how the defined alerts help in ensuring application reliability.
+
+Step 8: Submission (10 points)
+
+Require students to compile their documentation, Prometheus configuration files, Grafana dashboard configurations, and screenshots into a report or document.
+
+They should submit the report along with any necessary configuration files.
+
+Grading Criteria:
+
+Successful setup and configuration of Prometheus and Grafana for custom metric collection and visualization.
+
+Clear documentation of the setup process, including metric definitions, alerting rules, and Grafana dashboards.
+
+Comprehensive explanations of the custom metrics' significance and the value of defined alerts.
+
+Submission of both the report and configuration files.

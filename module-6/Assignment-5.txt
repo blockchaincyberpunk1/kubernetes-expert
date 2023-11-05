@@ -1,0 +1,49 @@
+Automating Alerting
+
+Objective: To automate alerting based on specific conditions.
+
+Task: Assign students an application with specific performance thresholds and conditions that trigger alerts. Instruct them to set up alerting rules in Prometheus and create alerts for the defined conditions. Students should demonstrate how alerts are triggered and resolved based on the application's behavior.
+
+Instructions:
+
+Step 1: Application with Performance Thresholds (10 points)
+
+Provide students with a Kubernetes application that has specific performance thresholds and conditions that can trigger alerts. These conditions could be related to CPU utilization, memory usage, error rates, or any other relevant metrics.
+Step 2: Prometheus Alerting Rules (15 points)
+
+Instruct students to define Prometheus alerting rules based on the conditions of the provided application. They should write alerting rules that specify when alerts should be fired. This may involve setting threshold values and conditions for specific metrics.
+Step 3: Alert Manager Configuration (10 points)
+
+Students should configure the Prometheus Alertmanager to handle and route alerts. They should set up routing and notification configurations to specify how alerts should be managed and who should be notified when an alert is triggered.
+Step 4: Alert Triggering (30 points)
+
+Ask students to run the Kubernetes application and demonstrate how Prometheus alerts are triggered when the defined conditions are met. They should simulate scenarios where performance thresholds are exceeded, leading to the firing of alerts.
+
+Students should use Prometheus's query language to analyze and verify alert triggering.
+
+Step 5: Alert Resolution (20 points)
+
+Instruct students to resolve the alerts by taking appropriate actions. They should demonstrate how alerts transition from a firing state to a resolved state when the application's behavior returns to normal or when issues are mitigated.
+Step 6: Documentation (10 points)
+
+Require students to document the entire alerting process, including:
+
+Details of the application and its performance thresholds.
+
+Prometheus alerting rules and configurations.
+
+Alertmanager routing and notification configurations.
+
+A log of alert triggering scenarios and actions taken to resolve them.
+
+Grading Criteria:
+
+Effective definition of Prometheus alerting rules based on provided application conditions.
+
+Accurate configuration of the Prometheus Alertmanager to manage alerts.
+
+Successful demonstration of alert triggering when performance thresholds are exceeded.
+
+Appropriate actions taken to resolve alerts.
+
+Comprehensive documentation of the alerting process.

@@ -1,0 +1,71 @@
+# Local .kube directory
+.kube/
+
+# Ignore secret files
+secrets.yaml
+*.secret
+
+# Ignore specific local configuration files
+local-config.yaml
+
+# Ignore certificate files
+*.crt
+*.key
+*.pem
+
+# Ignore temporary files that may be created by editors or IDEs
+*~
+*.swp
+.DS_Store
+
+# Ignore build artifacts and directories
+bin/
+build/
+out/
+
+# Ignore logs
+*.log
+logs/
+
+# Ignore auto-generated files by IDEs
+.idea/
+*.iml
+.vscode/
+
+# Ignore Helm chart dependencies
+**/charts/*.tgz
+**/charts/*.lock
+
+# Ignore Tiller files
+tiller/
+
+# Ignore Terraform plan files
+*.tfplan
+*.tfstate
+*.tfstate.*
+
+# Ignore save files (e.g., for vi/vim)
+.*.swp
+.*.swo
+
+# Ignore OS generated files
+ehthumbs.db
+Thumbs.db
+
+# Ignore archive files
+*.tar
+*.gz
+*.bz2
+*.zip
+
+# Ignore vendor folder for Go projects
+vendor/
+
+# Ignore node_modules for Node.js projects
+node_modules/
+
+
+/articles
+/guides
+/infographics
+/presentations

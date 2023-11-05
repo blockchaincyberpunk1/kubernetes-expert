@@ -1,0 +1,58 @@
+ Integrating with External Configuration Services
+
+Objective: To understand how to integrate Kubernetes applications with external configuration services.
+
+Task: Provide students with a Kubernetes application that requires configuration data fetched from external configuration services like Spring Cloud Config or Consul. Instruct them to configure the application to connect to these services, retrieve configuration data, and use it to run the application successfully.
+
+Instructions:
+
+Step 1: Application with External Configuration (10 points)
+
+Provide students with a Kubernetes application that is designed to fetch its configuration data from an external configuration service (e.g., Spring Cloud Config, Consul, or similar).
+
+Ensure that the application code or Docker image includes the necessary logic to connect to and fetch configuration data from the external service.
+
+Step 2: Setting Up the External Configuration Service (15 points)
+
+Instruct students to set up the external configuration service of their choice. Provide resources or documentation to guide them through the setup process.
+
+Ensure that students understand how to define and organize configuration data within the external service, including properties or settings specific to the application.
+
+Step 3: Kubernetes Deployment (20 points)
+
+Task students with creating a Kubernetes Deployment manifest for the application.
+
+Instruct students to configure the application's container(s) so that they can connect to the external configuration service and fetch configuration data dynamically during deployment.
+
+Step 4: Configuring Kubernetes Secrets or ConfigMaps (15 points)
+
+Depending on the external configuration service used, guide students on whether to use Kubernetes Secrets or ConfigMaps to store authentication or access details required to connect to the external service.
+
+Ensure that students correctly define Secrets or ConfigMaps in their Kubernetes manifests to securely store this information.
+
+Step 5: Deploying and Testing (25 points)
+
+Instruct students to deploy their Kubernetes application using the provided Deployment manifest.
+
+Ask them to demonstrate that the application successfully connects to the external configuration service, retrieves the configuration data, and uses it to run the application.
+
+They should provide evidence of successful configuration retrieval, such as logs, screenshots, or application behavior.
+
+Step 6: Documentation and Reflection (15 points)
+
+Require students to create documentation that includes:
+
+The Kubernetes Deployment manifest.
+Configuration details for connecting to the external configuration service.
+Documentation of how they configured Secrets or ConfigMaps for secure storage.
+Ask students to reflect on their experience and describe the advantages of integrating Kubernetes applications with external configuration services, such as centralized configuration management and dynamic updates.
+
+Grading Criteria:
+
+Accurate setup of the external configuration service.
+
+Correct configuration of Kubernetes Deployment manifest to connect to the external service.
+
+Successful demonstration of application integration with the external configuration service.
+
+Comprehensive documentation and reflection.

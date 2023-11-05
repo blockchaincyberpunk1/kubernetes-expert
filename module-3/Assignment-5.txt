@@ -1,0 +1,47 @@
+Rolling Updates and Rollbacks
+
+Objective: To practice rolling updates and rollbacks in Kubernetes.
+
+Task: Provide students with a sample application and ask them to implement a rolling update strategy. They should first deploy an initial version, make changes to the application code, and then perform a rolling update to apply the changes without downtime. Additionally, students should document how to roll back to the previous version if needed.
+
+Instructions:
+
+Step 1: Initial Application Deployment (10 points)
+
+Provide students with a simple web application or a sample application code that can be containerized and deployed on Kubernetes.
+
+Instruct students to deploy the initial version of the application as pods on a Kubernetes cluster. They should write the necessary YAML manifests for deploying pods and services.
+
+Step 2: Code Changes (15 points)
+
+Ask students to make code changes or updates to the application. This could include adding new features, fixing bugs, or making any desired modifications.
+Step 3: Rolling Update Strategy (20 points)
+
+Students should create a Kubernetes Deployment or StatefulSet resource for managing the application pods. This resource will enable rolling updates.
+
+Instruct students to implement a rolling update strategy, specifying the desired number of replicas for the new version and the update strategy (e.g., maxSurge, maxUnavailable).
+
+Step 4: Update Deployment (25 points)
+
+Students should update the Deployment or StatefulSet resource to trigger the rolling update. This will involve updating the container image tag to the new version.
+
+Encourage students to monitor the rolling update process and verify that it progresses without causing application downtime.
+
+Step 5: Testing (15 points)
+
+Instruct students to thoroughly test the new version of the application to ensure that it functions correctly with the code changes.
+Step 6: Rollback (15 points)
+
+Ask students to document the process for rolling back to the previous version of the application if any issues arise during testing or production deployment. They should describe the steps involved in rolling back and verify that it works.
+Step 7: Documentation (10 points)
+
+Students should provide documentation that includes details of the rolling update strategy, any challenges they encountered during the update and rollback processes, and the outcomes of their testing.
+Grading Criteria:
+
+Correct deployment of the initial version of the application.
+
+Accurate implementation of the rolling update strategy using a Kubernetes Deployment or StatefulSet.
+
+Successful execution of the rolling update without downtime.
+
+Thorough testing of the new version and documentation of the rollback process.

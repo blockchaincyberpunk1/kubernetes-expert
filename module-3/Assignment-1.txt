@@ -1,0 +1,39 @@
+Pod Creation and Management
+
+Objective: To practice creating and managing pods in Kubernetes.
+
+Task: Provide students with a scenario where they need to deploy multiple pods for different services (e.g., web server, database). Students should write YAML manifests for the required pods, ensuring they specify the correct container images, resource requests, and labels. They should then deploy these pods on a Kubernetes cluster.
+
+Instructions:
+
+Step 1: Scenario (10 points)
+
+Present students with a scenario that includes the need for multiple pods running different services. For example, you can describe a situation where a company wants to deploy a web application along with its database using Kubernetes.
+Step 2: Pod Planning (10 points)
+
+Instruct students to plan the pods they need to deploy. They should consider factors like the type of service, resource requirements (CPU, memory), container images to use, and any labels they want to assign to the pods.
+Step 3: YAML Manifests (30 points)
+
+Ask students to create YAML manifests for the pods they identified in the planning phase. Each pod should have a separate manifest file. The manifests should include the following information:
+Pod metadata (name, labels).
+Container specifications (image, resource requests/limits).
+Any necessary environment variables or volume mounts.
+Step 4: Deployment (20 points)
+
+Instruct students to deploy the pods on a Kubernetes cluster using the kubectl apply command. They should also ensure that the pods are running correctly by checking their status using kubectl get pods.
+Step 5: Verification (20 points)
+
+Ask students to verify that their pods are functioning as expected. They can use kubectl describe pod to get detailed information about each pod and its containers. They should also confirm that the pods are correctly labeled.
+Step 6: Troubleshooting (10 points)
+
+In case any issues arise during deployment or pod management, students should identify the problem and attempt to troubleshoot it. Encourage them to refer to Kubernetes documentation or seek assistance from instructors or peers.
+Step 7: Submission (10 points)
+
+Students should submit their YAML manifest files, deployment confirmation screenshots, and any troubleshooting notes.
+Grading Criteria:
+
+Accuracy and completeness of YAML manifests for the pods.
+
+Successful deployment and correct pod status verification.
+
+Effective troubleshooting skills (if necessary).

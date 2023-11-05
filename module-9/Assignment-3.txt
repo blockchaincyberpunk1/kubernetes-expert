@@ -1,0 +1,51 @@
+Contribution to Open-Source Kubernetes Projects
+
+Objective: To make contributions to open-source Kubernetes projects.
+
+Task: Assign students a specific issue or feature request from a Kubernetes-related open-source project (e.g., Kubernetes GitHub repository). They should fork the repository, work on the issue, create a pull request (PR), and participate in the review process. Students should document their contribution, including the issue they worked on, the code changes made, and the feedback received.
+
+Instructions:
+
+Step 1: Issue Selection (10 points)
+
+Provide a list of Kubernetes-related open-source projects, and ask each student to select an issue or feature request from one of these projects. Ensure that the chosen issues are appropriate for their skill level.
+
+Students should provide a brief description of the issue they've selected, including its title, a link to the issue on the project's repository, and any relevant context.
+
+Step 2: Forking and Setting Up (10 points)
+
+Instruct students to fork the repository of the open-source project to their own GitHub accounts. They should clone the forked repository to their local development environment.
+
+Students should set up the development environment for the project, including any dependencies, build tools, or testing frameworks.
+
+Step 3: Contribution and PR (40 points)
+
+Students should work on addressing the issue or implementing the feature request they selected. They must follow best practices for code quality and documentation.
+
+Encourage students to create a new branch for their work, make regular commits with clear commit messages, and push their changes to their forked repository.
+
+Students should create a well-documented pull request (PR) to the original project repository. The PR description should include:
+
+A description of the problem or feature.
+An explanation of their solution or implementation.
+Any necessary steps for testing or reviewing the changes.
+Step 4: Review and Iteration (20 points)
+
+Once the PR is created, students should actively participate in the review process. They should respond to comments, make necessary changes, and iterate on their code based on feedback from project maintainers or reviewers.
+Step 5: Documentation and Reporting (20 points)
+
+Students should maintain a log or report of their contribution. This should include:
+A link to the PR they created.
+A summary of the feedback and changes made during the review process.
+Any challenges they encountered and how they resolved them.
+Grading Criteria:
+
+Selection of a suitable issue or feature request from the open-source project.
+
+Effective forking and setup of the development environment.
+
+Quality of code and documentation in the PR.
+
+Active participation in the review process, including responding to feedback and making necessary changes.
+
+Thorough documentation and reporting of the contribution, including challenges and solutions.

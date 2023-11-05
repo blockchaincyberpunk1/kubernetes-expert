@@ -1,0 +1,58 @@
+Integrating StatefulSets with Operators
+
+Objective: To demonstrate the integration of StatefulSets and Operators.
+
+Task: Provide students with a Kubernetes environment where they need to deploy a stateful application. Instruct them to create a custom Operator that manages the lifecycle of this stateful application, including scaling and updating. Students should document the integration and demonstrate how the Operator interacts with StatefulSets.
+
+Instructions:
+
+Step 1: Set Up the Kubernetes Environment (10 points)
+
+Provide students with access to a Kubernetes cluster or help them set up one using a tool like Minikube or kind.
+
+Specify the stateful application that students will deploy. It could be a database, a messaging service, or any stateful workload.
+
+Step 2: Design the Custom Operator (20 points)
+
+Instruct students to design a custom Operator that will manage the stateful application within the Kubernetes cluster. The Operator should handle the application's lifecycle, including deployment, scaling, and updates.
+
+Students should provide the following for the Operator:
+
+Code for the Operator, including the logic for managing the stateful application.
+
+YAML specifications for any Custom Resource Definitions (CRDs) required for the Operator.
+
+Detailed explanations of how the Operator interacts with StatefulSets and other Kubernetes resources.
+
+Step 3: Deployment and Interaction (15 points)
+
+Ask students to deploy both the custom Operator and the stateful application in the Kubernetes environment.
+
+They should demonstrate how the Operator interacts with the StatefulSet to manage the stateful application's lifecycle. This could include scaling up, scaling down, and performing updates.
+
+Encourage students to provide practical examples and documentation on how to use the Operator and interact with it using kubectl.
+
+Step 4: Documentation (10 points)
+
+Students should create comprehensive documentation for their custom Operator, including:
+
+Installation instructions for the Operator on a Kubernetes cluster.
+
+How to create custom resources to interact with the Operator.
+
+Explanation of the Operator's behavior, including lifecycle management.
+
+Step 5: Presentation (5 points)
+
+Students should present their work to the class, explaining the use case, the design of the Operator, practical examples, and the documentation they created.
+Grading Criteria:
+
+Appropriateness of the Operator design for managing the stateful application.
+
+Clarity and completeness of the Operator code and CRD specifications.
+
+Effectiveness and accuracy of the Operator's interaction with the StatefulSet.
+
+Quality and completeness of the documentation.
+
+Quality of the presentation, including clarity and depth of explanation.

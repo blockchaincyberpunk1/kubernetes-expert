@@ -1,0 +1,51 @@
+Creating a Kubernetes Service
+
+Objective: To practice creating Kubernetes services.
+
+Task: Provide students with a set of applications deployed as pods. Ask them to create Kubernetes services to expose these applications within the cluster. Students should write YAML manifests for ClusterIP, NodePort, and LoadBalancer services to demonstrate different service types.
+
+Instructions:
+
+Step 1: Initial Pod Deployment (10 points)
+
+Provide students with a set of applications or microservices that are already containerized and ready for deployment as pods in a Kubernetes cluster. Ensure that each application runs as a separate pod.
+
+Instruct students to deploy these pods in a Kubernetes cluster using the appropriate YAML manifests. Each application should have its own pod specification.
+
+Step 2: ClusterIP Service (20 points)
+
+Ask students to create a ClusterIP service for one of the applications. The ClusterIP service should allow other pods within the cluster to access this application.
+
+Instruct them to write a Kubernetes YAML manifest for the ClusterIP service and associate it with the corresponding pod.
+
+Step 3: NodePort Service (20 points)
+
+Students should create a NodePort service for another application. The NodePort service should expose the application on a specific port across all cluster nodes.
+
+Instruct them to write a Kubernetes YAML manifest for the NodePort service and associate it with the corresponding pod.
+
+Step 4: LoadBalancer Service (20 points)
+
+For a third application, students should create a LoadBalancer service. The LoadBalancer service should expose the application to the external network through a cloud provider's load balancer.
+
+Instruct them to write a Kubernetes YAML manifest for the LoadBalancer service and associate it with the corresponding pod.
+
+Step 5: Testing and Verification (20 points)
+
+Ask students to test the functionality of each service type (ClusterIP, NodePort, LoadBalancer) to ensure that they can access the applications as expected.
+Step 6: Documentation (10 points)
+
+Students should provide documentation that includes the following:
+YAML manifests for the ClusterIP, NodePort, and LoadBalancer services.
+A description of the purpose of each service.
+Any challenges faced during service creation or testing.
+A summary of the testing results, demonstrating that they can access the applications using each service type.
+Grading Criteria:
+
+Correct deployment of pods for the given applications.
+
+Accurate creation of ClusterIP, NodePort, and LoadBalancer services.
+
+Successful testing of services to ensure they expose the applications correctly.
+
+Documentation that includes all required elements.

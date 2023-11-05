@@ -1,0 +1,47 @@
+Canary Deployment with Kubernetes
+
+Objective: To set up a canary deployment strategy.
+
+Task: Instruct students to implement a canary deployment strategy using Kubernetes. They should deploy a new version of an application alongside the existing one, gradually increasing the traffic to the new version. Students should document the canary deployment process, including Kubernetes configuration and traffic management.
+
+Instructions:
+
+Step 1: Choose a Kubernetes Application (5 points)
+
+Provide students with a choice of Kubernetes applications that they will work on throughout this assignment. This could be a web application, microservices, or any other suitable project.
+Step 2: Deploy the Initial Version (15 points)
+
+Ask students to deploy the initial version of the application as a baseline. Ensure that this version is up and running.
+Step 3: Deploy the Canary Version (15 points)
+
+Instruct students to create a new deployment with the canary version of the application. This version should have changes or updates compared to the initial version.
+Step 4: Configure Traffic Splitting (20 points)
+
+Students must set up traffic splitting between the initial and canary versions. Initially, a small percentage of traffic (e.g., 10%) should go to the canary version, and the majority should go to the initial version.
+Step 5: Gradual Traffic Increase (20 points)
+
+Encourage students to monitor the performance of the canary version and gradually increase the traffic share directed to it. They should document how they decide to increase traffic based on observed metrics or criteria.
+Step 6: Testing and Verification (15 points)
+
+Ask students to thoroughly test the canary deployment. They should verify that the canary version performs as expected and that there are no issues affecting the users.
+Step 7: Rollback Plan (10 points)
+
+Instruct students to prepare a rollback plan in case any issues arise during the canary deployment. They should document the steps to roll back to the initial version if necessary.
+Step 8: Documentation (10 points)
+
+Students should provide comprehensive documentation explaining the entire canary deployment process. This should include Kubernetes configuration, traffic management, and the rationale behind traffic increase decisions.
+Grading Criteria:
+
+Successful deployment of the initial application version.
+
+Correct deployment of the canary version with changes or updates.
+
+Accurate configuration of traffic splitting between initial and canary versions.
+
+Gradual and well-documented traffic increase to the canary version.
+
+Thorough testing and verification of the canary deployment.
+
+A well-prepared rollback plan in case of issues.
+
+Quality and completeness of documentation explaining the entire canary deployment workflow.

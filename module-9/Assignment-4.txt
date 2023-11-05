@@ -1,0 +1,48 @@
+Kubernetes Documentation Enhancement
+
+Objective: To improve Kubernetes documentation.
+
+Task: Students should identify an area in the Kubernetes documentation that they believe can be enhanced or clarified. They are required to propose improvements, create a pull request with the documentation changes, and engage with the documentation maintainers for feedback and approval. Students should provide a link to their pull request and describe the changes made.
+
+Instructions:
+
+Step 1: Documentation Identification (10 points)
+
+Ask students to explore the Kubernetes documentation (https://kubernetes.io/docs/) and find a section or page that they think can be improved. They should provide a brief summary of the current issue or confusion in the documentation.
+Step 2: Proposal (10 points)
+
+Students should create a proposal for improving the documentation. The proposal should include:
+A detailed description of the proposed changes or enhancements.
+Reasons for making these changes, including any issues or confusion that the current documentation causes.
+A plan for how the documentation can be clarified or improved.
+Step 3: Documentation Changes (40 points)
+
+Instruct students to create a new branch in their forked Kubernetes documentation repository or create a new branch in a local clone of the repository.
+
+Students should make the proposed changes to the documentation. These changes may include adding explanations, clarifications, examples, or correcting inaccuracies.
+
+Encourage students to ensure that their changes follow the documentation style and formatting guidelines.
+
+Step 4: Pull Request (20 points)
+
+Students should create a pull request (PR) with their documentation changes to the official Kubernetes documentation repository (https://github.com/kubernetes/website).
+
+The PR description should include:
+
+A link to the section of documentation they've updated.
+A summary of the changes made.
+Reasons for the changes and how they improve the documentation.
+Step 5: Review and Iteration (20 points)
+
+Once the PR is created, students should actively participate in the review process. They should respond to comments, make necessary changes, and iterate on their documentation updates based on feedback from the Kubernetes documentation maintainers or reviewers.
+Grading Criteria:
+
+Identification of a section in the Kubernetes documentation that requires improvement.
+
+Clarity and completeness of the proposal for documentation enhancements.
+
+Quality and accuracy of the documentation changes.
+
+Effective creation of a pull request with a clear description.
+
+Active participation in the review process, including responding to feedback and making necessary changes.

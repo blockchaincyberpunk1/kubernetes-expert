@@ -1,0 +1,41 @@
+Kubernetes Cluster Setup
+
+Objective: To help students set up and interact with a Kubernetes cluster.
+
+Task: In this hands-on assignment, students should follow a step-by-step guide or tutorial to set up a local Kubernetes cluster using a tool like Minikube or kind. Once the cluster is running, they should deploy a sample application and interact with it using kubectl commands.
+
+Instructions:
+
+Step 1: Introduction to Kubernetes Cluster Setup (10 points)
+
+Begin by introducing students to the concept of setting up Kubernetes clusters. Explain that Kubernetes clusters can be created for various purposes, such as development, testing, or learning, and there are tools like Minikube and kind that simplify the process.
+Step 2: Choosing a Tool (10 points)
+
+Provide students with an overview of available Kubernetes cluster setup tools. Highlight the differences between Minikube and kind and guide them in selecting one based on their preferences and requirements.
+Step 3: Installation and Configuration (30 points)
+
+Instruct students to follow a provided or recommended tutorial or guide for installing and configuring the selected Kubernetes cluster tool (Minikube or kind). The guide should cover installation steps specific to the student's operating system.
+Step 4: Starting the Cluster (10 points)
+
+Once the tool is installed and configured, students should use it to start a local Kubernetes cluster.
+Step 5: Deploying a Sample Application (20 points)
+
+Guide students in deploying a simple sample application to their local Kubernetes cluster. The application can be a basic web server, database, or any other simple service. Provide them with the necessary Kubernetes YAML manifests for deployment.
+Step 6: Interacting with the Cluster (10 points)
+
+Instruct students to use kubectl commands to interact with the Kubernetes cluster. They should perform tasks such as checking the status of pods, services, and deployments, scaling the application, and retrieving logs.
+Step 7: Verification (10 points)
+
+Students should verify that the sample application is successfully deployed, running, and accessible.
+Step 8: Submission (10 points)
+
+Ask students to submit a report summarizing their experience in setting up the Kubernetes cluster, deploying the sample application, and interacting with the cluster using kubectl commands. They should include any issues they encountered and how they resolved them.
+Grading Criteria:
+
+Successful installation and configuration of the chosen Kubernetes cluster tool.
+
+Correct deployment of the sample application to the local cluster.
+
+Accurate use of kubectl commands to interact with the cluster.
+
+Clarity and quality of the assignment report.

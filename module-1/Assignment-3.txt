@@ -1,0 +1,53 @@
+Dockerfile Creation
+
+Objective: To teach students how to create custom Docker images.
+
+Task: In this assignment, students should choose an application (e.g., a web server, database, or their own code) and create a Dockerfile to build a custom Docker image. The Dockerfile should include all necessary configurations and dependencies for the application to run successfully.
+
+Instructions:
+
+Step 1: Application Selection (10 points)
+
+Ask students to choose an application or service they want to containerize using Docker. They can choose from options such as a web server (e.g., Nginx, Apache), a database (e.g., MySQL, PostgreSQL), or their own code (e.g., a simple web application).
+Step 2: Dockerfile Creation (40 points)
+
+Instruct students to create a Dockerfile for their chosen application. The Dockerfile should include the following elements:
+
+A suitable base image from Docker Hub (e.g., Ubuntu, Alpine, a language-specific image).
+Installation of any necessary software, libraries, or dependencies required by the application.
+Configuration settings specific to the chosen application.
+Commands to start the application when a container is launched.
+Students should pay attention to creating an efficient and minimal Dockerfile that only includes what's essential for the application to run.
+
+Encourage them to document each step and explain the purpose of each instruction in the Dockerfile.
+
+Step 3: Building the Docker Image (20 points)
+
+Instruct students to use the Docker CLI to build the Docker image based on their Dockerfile. They should tag the image with a meaningful name and version.
+
+Ensure they document the commands used for building the image.
+
+Step 4: Testing the Custom Image (20 points)
+
+Students should create a container from the custom Docker image and ensure that the application runs as expected within the container.
+
+They should test the application by accessing it through a web browser, database client, or other relevant means, depending on the application type.
+
+Document the testing process and any issues encountered (if applicable).
+
+Step 5: Submission (10 points)
+
+Instruct students to submit their Dockerfile, documentation of Dockerfile instructions, commands used for building the image, and details of the testing process through the designated submission method (e.g., email, learning management system).
+Grading Criteria:
+
+Selection of a suitable application for containerization.
+
+Creation of a well-structured Dockerfile with appropriate instructions.
+
+Proper documentation of each Dockerfile instruction and its purpose.
+
+Successful building of the Docker image.
+
+Successful testing of the application within the container.
+
+Quality of the submission, including the documentation of the Dockerfile and testing process.

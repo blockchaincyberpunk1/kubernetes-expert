@@ -1,0 +1,57 @@
+Custom Resource Definitions (CRD) Design
+
+Objective: To practice designing CRDs for Kubernetes extensions.
+
+Task: Assign students a real-world use case and ask them to design the necessary Custom Resource Definitions (CRDs) to extend Kubernetes for that use case. They should provide YAML specifications for the CRDs, explain the rationale behind the design choices, and provide examples of how these CRDs can be used.
+
+Instructions:
+
+Step 1: Use Case Selection (10 points)
+
+Provide students with a list of real-world use cases that require extending Kubernetes using CRDs. Examples include deploying microservices, managing IoT devices, or orchestrating machine learning workflows. Each student or group should choose one use case.
+Step 2: CRD Design (20 points)
+
+Instruct students to design CRDs that are appropriate for their chosen use case. They should consider the structure of the CRD, its fields, and its relationships with other Kubernetes resources.
+
+Students should provide the following for each CRD they design:
+
+A YAML specification for the CRD that includes the structure of the resource.
+
+An explanation of the purpose of the CRD and why it's essential for the chosen use case.
+
+Rationale behind the design choices, including the fields, labels, and annotations used.
+
+Validation rules and schemas, if applicable.
+
+Step 3: CRD Usage Examples (15 points)
+
+Students should provide practical examples of how these CRDs can be used within a Kubernetes environment. These examples should demonstrate the creation and manipulation of custom resources based on their CRD designs.
+
+Encourage students to create YAML files that define custom resources and use kubectl commands to interact with them.
+
+Step 4: Documentation (10 points)
+
+Ask students to create documentation for their CRDs, including:
+
+How to install the CRD on a Kubernetes cluster.
+
+How to create, update, and delete custom resources based on the CRD.
+
+Best practices and use cases for their CRDs.
+
+Step 5: Presentation (5 points)
+
+Students should present their CRD designs to the class. Each presentation should include an overview of the use case, the CRD design, practical examples, and the documentation they created.
+Grading Criteria:
+
+Appropriateness of the CRD design for the chosen use case.
+
+Clarity and completeness of the YAML specification for the CRD.
+
+Well-explained rationale behind the design choices.
+
+Practical and effective usage examples for the CRDs.
+
+Quality and completeness of the documentation.
+
+Quality of the presentation, including clarity and depth of explanation.

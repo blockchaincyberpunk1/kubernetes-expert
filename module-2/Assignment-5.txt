@@ -1,0 +1,39 @@
+Kubernetes Components Explained
+
+Objective: To dive deeper into Kubernetes components.
+
+Task: Assign each student or a group of students a specific Kubernetes component (e.g., pods, services, controllers) and ask them to create a detailed report or presentation explaining the component's role, how it works, and why it's crucial in a Kubernetes cluster.
+
+Instructions:
+
+Step 1: Component Assignment (10 points)
+
+Assign each student or group a specific Kubernetes component to focus on. Ensure that each component is covered, and there is no overlap.
+Step 2: Research (20 points)
+
+Instruct students to research and gather information about their assigned Kubernetes component. They should use official Kubernetes documentation, articles, and other reputable sources to understand the component thoroughly.
+Step 3: Content Creation (30 points)
+
+Students should create a detailed report or presentation that includes the following information for their assigned Kubernetes component:
+Explanation of the component's purpose and role within a Kubernetes cluster.
+Detailed description of how the component works, including its key features and functionalities.
+Real-world use cases and scenarios where the component is essential.
+Any best practices or recommendations for using the component effectively.
+Step 4: Visuals and Examples (20 points)
+
+Encourage students to include visuals, diagrams, and examples to illustrate their explanations. Visual aids can help make complex concepts easier to understand.
+Step 5: Presentation (10 points)
+
+If the assignment is in the form of a presentation, instruct students to present their findings to the class. Each presentation should be concise and focus on the key points about the assigned component.
+Step 6: Submission (10 points)
+
+Students should submit their reports or presentation slides along with any additional materials used during the presentation.
+Grading Criteria:
+
+Depth and accuracy of the information provided about the assigned Kubernetes component.
+
+Clarity and organization of the report or presentation.
+
+Effective use of visuals and examples to aid understanding.
+
+Presentation skills and engagement (for presentation-based assignments).

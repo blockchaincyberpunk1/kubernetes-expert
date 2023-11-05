@@ -1,0 +1,53 @@
+Kubernetes Blog Post or Tutorial
+
+Objective: To create educational content related to Kubernetes.
+
+Task: Ask students to write a blog post or create a tutorial on a Kubernetes-related topic of their choice. They should research and present the topic in a clear and informative manner. Students should publish their content on a personal blog, Medium, or a platform of their choice. They should provide a link to their published content and a brief summary.
+
+Instructions:
+
+Step 1: Topic Selection (10 points)
+
+Students should choose a Kubernetes-related topic that interests them or aligns with their learning goals. They can explore topics like Kubernetes basics, deployment strategies, advanced features, troubleshooting, or best practices.
+Step 2: Research and Content Creation (30 points)
+
+Instruct students to research the chosen topic thoroughly. They should gather information from reputable sources, Kubernetes documentation, and real-world examples.
+
+Students should create a well-structured and informative blog post or tutorial. Encourage them to include the following elements:
+
+Introduction to the topic.
+Explanation of key concepts.
+Step-by-step instructions or examples.
+Code snippets and configuration examples (if applicable).
+Best practices or tips.
+Step 3: Writing and Formatting (20 points)
+
+Students should focus on clear and concise writing. Their content should be easily understandable to readers with varying levels of Kubernetes expertise.
+
+Encourage students to use proper formatting, headings, and bullet points to enhance readability.
+
+Step 4: Publishing (10 points)
+
+Students should publish their blog post or tutorial on a platform of their choice. They can use personal blogs, Medium, Dev.to, or other platforms that allow publishing technical content.
+Step 5: Submission (10 points)
+
+Students should submit the following as part of their assignment:
+A link to their published blog post or tutorial.
+A brief summary (around 200 words) of the content, highlighting its key points and takeaways.
+Grading Criteria:
+
+Relevance and quality of the selected topic.
+
+Thorough research and accurate information.
+
+Clarity and effectiveness of the content structure.
+
+Writing quality and readability.
+
+Use of examples and code snippets (if applicable).
+
+Proper formatting and organization.
+
+Successful publication on a chosen platform.
+
+Concise and informative summary of the content.

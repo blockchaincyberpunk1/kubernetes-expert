@@ -1,0 +1,64 @@
+Deploying Monitoring Tools
+
+Objective: To learn how to set up monitoring and logging tools in Kubernetes.
+
+Task: Ask students to deploy monitoring and logging tools like Prometheus, Grafana, and Fluentd to a Kubernetes cluster. They should configure these tools to collect and visualize metrics and logs from a sample application. Students should provide screenshots of dashboards and explain the key metrics they are monitoring.
+
+Instructions:
+
+Step 1: Tool Selection (5 points)
+
+Provide students with a list of monitoring and logging tools commonly used in Kubernetes, such as Prometheus, Grafana, and Fluentd.
+
+Instruct them to choose at least one monitoring tool and one logging tool from the list.
+
+Step 2: Cluster Setup (10 points)
+
+Guide students in setting up a Kubernetes cluster if they don't already have one. They can use Minikube, kind, or a cloud-based Kubernetes service like Google Kubernetes Engine (GKE) or Amazon Elastic Kubernetes Service (EKS).
+Step 3: Deploy Sample Application (15 points)
+
+Provide students with a simple sample application or container image. This can be a web application, microservice, or any application they choose.
+
+Instruct them to deploy the sample application onto their Kubernetes cluster.
+
+Step 4: Tool Deployment and Configuration (30 points)
+
+Students should deploy the monitoring and logging tools they selected onto their Kubernetes cluster.
+
+They should configure the tools to collect metrics and logs from the sample application.
+
+In the case of Prometheus and Grafana, they should set up dashboards and alerts for monitoring.
+
+Step 5: Metric Monitoring (20 points)
+
+Students should use Prometheus and Grafana to monitor key metrics from their sample application.
+
+They should provide screenshots of the Grafana dashboards and explain the significance of the monitored metrics.
+
+Step 6: Log Collection (10 points)
+
+Using Fluentd or a similar tool, students should collect and store logs from their sample application.
+
+They should demonstrate how to access and search the logs.
+
+Step 7: Documentation and Explanation (10 points)
+
+Instruct students to document the entire process, including tool selection, deployment, configuration, metric monitoring, and log collection.
+
+They should explain why the selected metrics and logs are essential for monitoring an application.
+
+Step 8: Submission (10 points)
+
+Require students to compile their documentation and screenshots into a report or document.
+
+They should submit the report along with any necessary configuration files or scripts used in the process.
+
+Grading Criteria:
+
+Successful deployment and configuration of monitoring and logging tools.
+
+Clear documentation of the setup process, including screenshots.
+
+Comprehensive explanations of the selected metrics and logs.
+
+Submission of both the report and configuration files.

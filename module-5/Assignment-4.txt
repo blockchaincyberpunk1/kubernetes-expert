@@ -1,0 +1,50 @@
+Environment Variable Configuration
+
+Objective: To practice configuring containers using environment variables.
+
+Task: Assign students a scenario where they have to deploy a containerized application that relies on environment variables for configuration. They should create a Kubernetes deployment manifest, define environment variables within the pod specification, and deploy the application. Students must demonstrate how environment variables are used for configuring the application.
+
+Instructions:
+
+Step 1: Configuration Scenario (10 points)
+
+Describe a hypothetical scenario to students where they need to deploy a containerized application that relies on configuration through environment variables. Explain that the application's behavior or settings can be customized using these variables.
+
+Provide students with the source code or Docker images for the application they need to deploy. Ensure that the application code is designed to read configuration values from environment variables.
+
+Step 2: Creating Kubernetes Deployment (25 points)
+
+Task students with creating a Kubernetes Deployment manifest for the application. They should specify the container image, ports, and any required environment variables.
+
+Instruct students to define the necessary environment variables in the pod specification to configure the application. These variables might include database connection strings, API endpoints, or feature toggles.
+
+Step 3: Deploying the Application (20 points)
+
+Explain to students how to deploy the application using the Kubernetes Deployment manifest they created.
+
+Ensure that students understand how to reference environment variables within their application code and how to use these variables for configuration.
+
+Step 4: Configuration Verification (25 points)
+
+Instruct students to deploy their application pods using the Kubernetes Deployment manifest.
+
+Task them with demonstrating that the application successfully uses the specified environment variables for configuration. They should provide evidence, such as logs or screenshots, showing that the application behaves as expected based on the environment variable settings.
+
+Step 5: Documentation and Reflection (20 points)
+
+Require students to create documentation that includes:
+
+The Kubernetes Deployment manifest.
+A description of the environment variables used for configuration.
+Screenshots or logs demonstrating that the application correctly read and used the environment variables.
+Ask students to reflect on their experience and describe the advantages of configuring applications through environment variables, such as flexibility and separation of concerns.
+
+Grading Criteria:
+
+Accurate creation of the Kubernetes Deployment manifest.
+
+Correct definition of environment variables within the pod specification.
+
+Successful demonstration of the application using environment variables for configuration.
+
+Comprehensive documentation and reflection.

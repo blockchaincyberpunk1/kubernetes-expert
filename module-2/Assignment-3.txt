@@ -1,0 +1,40 @@
+Kubernetes YAML Manifests
+
+Objective: To introduce students to Kubernetes resource definitions.
+
+Task: Provide students with a simple web application code and ask them to write Kubernetes YAML manifests to deploy the application on a Kubernetes cluster. They should create manifests for pods, services, and ingress (if applicable) to ensure the application is accessible.
+
+Instructions:
+
+Step 1: Understanding Kubernetes Resources (10 points)
+
+Begin by explaining the concept of Kubernetes resource definitions to students. Clarify that Kubernetes uses YAML manifests to define resources such as pods, services, and ingress.
+Step 2: Providing Web Application Code (20 points)
+
+Share a simple web application codebase with students. This code should include the application's container image and any configuration files it requires.
+Step 3: Writing Kubernetes YAML Manifests (40 points)
+
+Instruct students to write Kubernetes YAML manifests for the following resources:
+
+Pod: Students should create a pod manifest that deploys the web application container. They should specify the container image and any necessary environment variables.
+
+Service: Students should define a service manifest that exposes the pod to external or internal traffic. They can choose between ClusterIP, NodePort, or LoadBalancer types based on the application's requirements.
+
+Ingress (Optional): If applicable, students can create an ingress manifest to enable external access to the application using a defined host or path. This step is optional but provides an opportunity to explore ingress resources.
+
+Step 4: Deploying the Application (10 points)
+
+Instruct students to apply their YAML manifests to a Kubernetes cluster. They should use the kubectl apply command to create the resources.
+Step 5: Verification (10 points)
+
+Students should verify that the application is successfully deployed and accessible. They can use kubectl commands to check the status of pods, services, and, if applicable, ingress resources.
+Step 6: Submission (10 points)
+
+Ask students to submit their Kubernetes YAML manifests and a brief report detailing the deployment process and any issues encountered (if applicable).
+Grading Criteria:
+
+Completeness and correctness of the Kubernetes YAML manifests for pods, services, and ingress (if applicable).
+
+Successful deployment and verification of the web application on a Kubernetes cluster.
+
+Clarity and quality of the deployment report.

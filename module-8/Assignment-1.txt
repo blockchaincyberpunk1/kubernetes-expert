@@ -1,0 +1,51 @@
+Multi-Tier Application Deployment
+
+Objective: To deploy a multi-tier application on Kubernetes.
+
+Task: Assign students a multi-tier application scenario with components like a frontend (web app), a backend (API server), and a database. Students must create Kubernetes manifests to deploy these components, configure services, and ensure communication between them. They should document the deployment process and provide a running multi-tier application.
+
+Instructions:
+
+Step 1: Define the Multi-Tier Application (5 points)
+
+Provide students with a specific multi-tier application scenario. For example, it could be a web-based e-commerce platform with a frontend, backend API, and a database.
+Step 2: Kubernetes Deployment (20 points)
+
+Instruct students to create Kubernetes manifests for each component of the application. They should include:
+
+Deployment or StatefulSet manifests for frontend, backend, and database.
+
+Service manifests to expose the frontend and backend components.
+
+PersistentVolume and PersistentVolumeClaim manifests if required for data storage.
+
+Ensure that students properly configure environment variables, resource requests and limits, container images, and any other necessary settings within the manifests.
+
+Step 3: Deployment Documentation (15 points)
+
+Ask students to create comprehensive documentation for their deployment. The documentation should include:
+
+A step-by-step guide on how to deploy the multi-tier application on a Kubernetes cluster.
+
+Descriptions of the Kubernetes resources used, including their purpose and configuration.
+
+Explanations of how services enable communication between frontend, backend, and database components.
+
+Step 4: Testing and Verification (10 points)
+
+Instruct students to verify the successful deployment of their multi-tier application. They should ensure that all components are running as expected and that communication between them functions properly.
+
+Encourage students to provide sample test cases or curl commands to demonstrate the functionality of the deployed application.
+
+Step 5: Presentation (10 points)
+
+Students should present their deployed multi-tier application to the class. During the presentation, they should explain the use case, provide insights into their Kubernetes manifest configurations, and demonstrate the application's functionality.
+Grading Criteria:
+
+Completeness and correctness of Kubernetes manifests for each component.
+
+Quality and clarity of deployment documentation.
+
+Successful verification of the deployed multi-tier application.
+
+Quality of the presentation, including clarity and depth of explanation.

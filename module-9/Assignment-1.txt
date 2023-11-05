@@ -1,0 +1,44 @@
+Kubernetes Forum Engagement
+
+Objective: To actively engage with the Kubernetes community forums.
+
+Task: Students are required to join Kubernetes-related forums or discussion platforms such as Kubernetes GitHub repositories, Kubernetes Slack channels, or the Kubernetes Reddit community. They must participate in discussions, ask questions, and contribute constructive feedback on issues or topics related to Kubernetes. Students should provide a summary of their interactions and key takeaways.
+
+Instructions:
+
+Step 1: Choose a Kubernetes Forum or Platform (5 points)
+
+Instruct students to choose one or more Kubernetes-related forums or platforms to participate in. Provide a list of recommended forums, or allow students to select platforms that align with their interests and expertise.
+Step 2: Actively Engage (20 points)
+
+Students should actively engage with the chosen forum or platform by participating in discussions, threads, or issues. Encourage them to:
+Ask thoughtful questions about Kubernetes concepts, best practices, or troubleshooting.
+Provide answers, solutions, or guidance to questions posted by others.
+Share their experiences or insights related to Kubernetes.
+Contribute to discussions on relevant topics or issues.
+Step 3: Contribute Constructive Feedback (15 points)
+
+Students should actively contribute to discussions or issues related to Kubernetes projects on GitHub repositories. They should provide constructive feedback, report issues, or suggest improvements to Kubernetes-related projects.
+Step 4: Summary and Key Takeaways (20 points)
+
+Ask students to keep a log or journal of their interactions and contributions in the chosen forums or platforms. At the end of the assignment period, they should provide a summary that includes:
+The forums or platforms they engaged with.
+A description of their interactions and contributions, including links to specific discussions or issues.
+Key takeaways or lessons learned from their engagement with the Kubernetes community.
+Step 5: Reflection (10 points)
+
+Instruct students to reflect on their experience with Kubernetes forum engagement. They should consider questions such as:
+What did they learn from participating in the community forums?
+Did they encounter any challenges, and how did they overcome them?
+How has their understanding of Kubernetes evolved through this engagement?
+Grading Criteria:
+
+Active and meaningful participation in Kubernetes-related forums or platforms.
+
+Constructive contributions and engagement in discussions.
+
+Evidence of providing help, feedback, or solutions to others.
+
+A well-structured summary of interactions and key takeaways.
+
+Thoughtful reflection on the experience and its impact on their understanding of Kubernetes.

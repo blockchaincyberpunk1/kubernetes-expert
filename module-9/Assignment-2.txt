@@ -1,0 +1,47 @@
+Meetup or Conference Participation
+
+Objective: To attend Kubernetes meetups or conferences.
+
+Task: Instruct students to find and attend a local Kubernetes meetup or a virtual Kubernetes conference. They should choose an event, register, participate actively, and summarize their experience, highlighting any interesting sessions, speakers, or insights gained during the event.
+
+Instructions:
+
+Step 1: Research and Registration (10 points)
+
+Ask students to research and find a Kubernetes meetup or conference that aligns with their interests and availability. Provide resources for finding Kubernetes events, or allow them to choose events independently.
+
+Instruct students to register for the chosen event. If the event requires payment or registration, they should follow the necessary steps to secure their participation.
+
+Step 2: Active Participation (20 points)
+
+Students should actively participate in the Kubernetes meetup or conference they've registered for. Encourage them to:
+Attend relevant sessions or talks.
+Engage with speakers and ask questions during Q&A sessions.
+Join discussions or breakout sessions related to Kubernetes topics.
+Network with other attendees, either in person (for local events) or through virtual event platforms.
+Step 3: Summarize the Experience (30 points)
+
+After the event, students should write a comprehensive summary of their experience. The summary should include:
+An overview of the event, including its name, date, and format (local or virtual).
+Highlights of interesting sessions or talks they attended.
+Key takeaways, insights, or knowledge gained from the event.
+Any interactions with fellow attendees, speakers, or organizers.
+Step 4: Reflection (10 points)
+
+Instruct students to reflect on their participation in the Kubernetes meetup or conference. They should consider questions such as:
+What were the most valuable insights or sessions they attended?
+How did participating in this event contribute to their understanding of Kubernetes?
+Did they make any new connections or network with professionals in the field?
+How might they apply what they learned in future Kubernetes projects or assignments?
+Step 5: Presentation or Report (30 points)
+
+Students should create a presentation or a written report summarizing their experience. They can use slides or a document format, depending on your preference.
+Grading Criteria:
+
+Evidence of active participation in the chosen Kubernetes meetup or conference.
+
+Comprehensive summary of the event, highlighting key sessions and takeaways.
+
+Thoughtful reflection on the experience and its impact on their understanding of Kubernetes.
+
+Quality of the presentation or report, including clarity, organization, and visual elements.

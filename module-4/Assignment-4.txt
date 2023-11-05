@@ -1,0 +1,55 @@
+Ingress Controller Setup
+
+Objective: To explore Ingress controllers for external traffic routing.
+
+Task: Ask students to set up an Ingress controller and define Ingress resources to route external HTTP traffic to different services within the cluster. They should deploy sample web applications, configure path-based routing, and demonstrate how external clients can access these applications via the Ingress controller.
+
+Instructions:
+
+Step 1: Ingress Controller Installation (20 points)
+
+Provide students with documentation or resources on popular Kubernetes Ingress controllers like Nginx Ingress or Traefik.
+
+Instruct students to choose one Ingress controller and install it on their Kubernetes cluster. They should follow the installation guidelines specific to the selected controller.
+
+Step 2: Sample Web Applications (15 points)
+
+Provide students with simple web application code or Docker images representing different web services (e.g., a blog, an e-commerce site, and a news portal). Ensure that each application has a unique path or URL route.
+
+Instruct students to deploy these web applications as Kubernetes services in their cluster. They should expose each service using ClusterIP or NodePort, depending on the Ingress controller's requirements.
+
+Step 3: Ingress Resource Definition (25 points)
+
+Explain the concept of Ingress resources in Kubernetes. An Ingress resource defines rules for routing external HTTP traffic to services within the cluster.
+
+Assign students the task of creating Ingress resources that route traffic to the deployed web applications. They should define path-based routing rules to ensure that requests to specific paths are directed to the corresponding services.
+
+Students should write YAML manifests for these Ingress resources.
+
+Step 4: Testing and Verification (20 points)
+
+Ask students to test the Ingress setup by sending HTTP requests to different paths and routes defined in the Ingress resources.
+
+They should provide evidence of successful access to the various web applications using the Ingress controller.
+
+Step 5: Documentation and Presentation (20 points)
+
+Students should create documentation that includes the following:
+
+YAML manifests for the Ingress resources they created.
+Descriptions of the deployed web applications.
+Test results demonstrating the successful routing of traffic.
+Any challenges faced during the setup.
+Organize a class presentation where students share their experiences. They should explain how the Ingress controller works, the benefits of path-based routing, and any best practices they followed.
+
+Grading Criteria:
+
+Correct installation of the Ingress controller.
+
+Accurate deployment of sample web applications.
+
+Correct configuration of Ingress resources for path-based routing.
+
+Successful testing and verification of the Ingress setup.
+
+Comprehensive documentation and active participation in the presentation.

@@ -1,0 +1,44 @@
+CI/CD Pipeline Integration with Kubernetes
+
+Objective: To integrate CI/CD pipelines with Kubernetes.
+
+Task: Ask students to set up a CI/CD pipeline using a tool like Jenkins, GitLab CI/CD, or Travis CI. They should configure automated building, testing, and deploying of a Kubernetes application when code changes are pushed to a Git repository. Students should provide the CI/CD configuration files and demonstrate the automated deployment process.
+
+Instructions:
+
+Step 1: Choose a Kubernetes Application (5 points)
+
+Provide students with a choice of Kubernetes applications that they will work on throughout this assignment. This could be a web application, microservices, or any other suitable project.
+Step 2: Set Up a Version Control Repository (10 points)
+
+Instruct students to create a version control repository (e.g., GitHub, GitLab) for their chosen Kubernetes application. They should initialize the repository with the application code and any necessary Kubernetes manifests.
+Step 3: Configure the CI/CD Pipeline (25 points)
+
+Ask students to select a CI/CD tool (e.g., Jenkins, GitLab CI/CD, Travis CI) and configure it to automatically build, test, and deploy their Kubernetes application.
+
+Students should create a CI/CD pipeline that performs the following steps:
+
+Build the application container image.
+Run tests against the application.
+Deploy the application to a Kubernetes cluster.
+Step 4: CI/CD Configuration Files (15 points)
+
+Students must provide the CI/CD configuration files (e.g., Jenkinsfile, .gitlab-ci.yml, .travis.yml) as part of their submission. These files should include the configuration settings for each pipeline stage, such as build, test, and deployment.
+Step 5: Demonstrate the CI/CD Pipeline (20 points)
+
+Instruct students to push code changes to their version control repository and demonstrate how the CI/CD pipeline automatically builds, tests, and deploys the application to a Kubernetes cluster.
+
+Encourage students to explain how they set up environment variables, secrets, and any necessary Kubernetes context within the CI/CD configuration.
+
+Step 6: Documentation (10 points)
+
+Students should create documentation that explains the purpose and workflow of their CI/CD pipeline. This documentation should include an overview of the pipeline stages and how they integrate with Kubernetes.
+Grading Criteria:
+
+Successful configuration of the CI/CD pipeline stages (build, test, deploy).
+
+Correct CI/CD configuration files that are included in the submission.
+
+Effective demonstration of the automated pipeline in action.
+
+Quality and completeness of documentation explaining the CI/CD workflow and integration with Kubernetes.

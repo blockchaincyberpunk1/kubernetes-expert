@@ -1,0 +1,54 @@
+Securing Ingress Traffic with TLS
+
+Objective: To secure external traffic using TLS encryption.
+
+Task: Provide students with a web application that requires secure communication. Instruct them to set up an Ingress resource with TLS termination and configure certificates for encryption. Students should demonstrate that external requests are securely encrypted when accessing the application.
+
+Instructions:
+
+Step 1: Secure Web Application (15 points)
+
+Provide students with a web application code or Docker image that serves content requiring secure communication. The application can be a simple web form, a login page, or any other web service that handles sensitive information.
+
+Instruct students to deploy this web application as a Kubernetes service within their cluster. Ensure that the service is accessible through HTTP for initial testing.
+
+Step 2: TLS Certificate Preparation (20 points)
+
+Explain the importance of TLS encryption for securing data in transit.
+
+Ask students to obtain or generate TLS certificates and private keys for their domain or subdomains. They can use tools like Let's Encrypt or self-signed certificates for this purpose.
+
+Step 3: Ingress Resource Configuration (30 points)
+
+Describe the concept of TLS termination in Kubernetes Ingress. TLS termination allows SSL/TLS decryption at the Ingress controller, allowing secure communication between the client and the controller.
+
+Assign students the task of creating or modifying their existing Ingress resource to enable TLS termination. They should define the TLS secret (containing the certificate and private key) and associate it with the Ingress resource.
+
+Students should write YAML manifests for these Ingress resources.
+
+Step 4: Testing and Verification (20 points)
+
+Instruct students to test the secure communication of their web application. They should access the application using HTTPS (e.g., https://example.com) and ensure that the connection is secure.
+
+Students should provide evidence of a secure connection and validate the TLS certificate when accessing the application.
+
+Step 5: Documentation and Presentation (15 points)
+
+Students should create documentation that includes the following:
+
+YAML manifests for the Ingress resource with TLS termination.
+Details of the TLS certificate and how it was obtained or generated.
+Test results showing successful secure communication.
+Organize a class presentation where students share their experiences. They should explain the importance of TLS encryption, the process of setting up TLS termination in Kubernetes, and any challenges they faced during the assignment.
+
+Grading Criteria:
+
+Successful deployment of a web application requiring secure communication.
+
+Accurate configuration of the Ingress resource for TLS termination.
+
+Correct association of the TLS secret with the Ingress resource.
+
+Evidence of successful secure communication during testing.
+
+Comprehensive documentation and active participation in the presentation.

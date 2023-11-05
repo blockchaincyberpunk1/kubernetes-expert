@@ -1,0 +1,55 @@
+Creating a Custom Operator
+
+Objective: To understand how to create custom controllers using Operators.
+
+Task: Ask students to design and implement a custom Operator that automates a specific task or manages a custom resource. They should define Custom Resource Definitions (CRDs) to extend Kubernetes for their use case. Students should provide code, documentation, and examples of how the Operator operates.
+
+Instructions:
+
+Step 1: Choose a Use Case (15 points)
+
+Provide students with a choice of use cases for their custom Operator, such as deploying and managing a specific application, automating backups, or handling a custom resource.
+Step 2: Operator Design (20 points)
+
+Instruct students to design the architecture of their custom Operator. They should outline the tasks it will automate and the custom resources (CRDs) it will manage.
+
+Encourage students to consider how their Operator will handle events and reconciliation loops.
+
+Step 3: Implement the Operator (30 points)
+
+Students should write code for the Operator using a programming language and framework of their choice (e.g., Go with the Operator SDK).
+
+Ensure that students create Custom Resource Definitions (CRDs) for their custom resources.
+
+Step 4: Operator Documentation (15 points)
+
+Ask students to create comprehensive documentation for their Operator. The documentation should include:
+
+Installation instructions.
+
+How to create custom resources.
+
+How the Operator functions, including reconciliation logic.
+
+Examples of using the Operator in different scenarios.
+
+Step 5: Testing and Validation (10 points)
+
+Students should thoroughly test their custom Operator, ensuring that it correctly manages the custom resources and performs the desired automation tasks.
+
+They should provide evidence of successful testing.
+
+Step 6: Demonstration (10 points)
+
+Students should demonstrate how their custom Operator operates within a Kubernetes environment. This can include creating custom resources and observing how the Operator reacts to changes.
+Grading Criteria:
+
+Successful design and implementation of a custom Operator.
+
+Proper definition and use of Custom Resource Definitions (CRDs).
+
+Effective documentation that helps users understand and use the Operator.
+
+Comprehensive testing and validation of the Operator's functionality.
+
+A successful demonstration of the Operator's operation within a Kubernetes cluster.

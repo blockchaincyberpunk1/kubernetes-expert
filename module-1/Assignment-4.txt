@@ -1,0 +1,50 @@
+Docker Compose for Multi-Container Applications
+
+Objective: To introduce students to multi-container applications using Docker Compose.
+
+Task: In this assignment, students will learn about Docker Compose and create a Docker Compose file to define and run a multi-container application. They will set up multiple containers, such as a web application and a database, and configure their interaction.
+
+Instructions:
+
+Step 1: Learning Docker Compose (10 points)
+
+Start by providing students with learning resources and tutorials on Docker Compose. This could include articles, videos, or official documentation.
+
+Ensure they understand the purpose and benefits of Docker Compose in managing multi-container applications.
+
+Step 2: Application Selection (10 points)
+
+Ask students to choose an application scenario that requires multiple containers. For example, they can select a web application (e.g., a simple Flask app) and a database (e.g., PostgreSQL) as a common use case.
+Step 3: Docker Compose File Creation (40 points)
+
+Instruct students to create a Docker Compose file (docker-compose.yml) for their selected application scenario. The Docker Compose file should include:
+
+Definitions of both containers (web app and database).
+Configuration settings for each container, such as environment variables, ports, and volumes.
+A description of how the containers interact (e.g., the web app connecting to the database container).
+Ensure they properly structure and indent the Docker Compose file for readability.
+
+Step 4: Deploy and Test (30 points)
+
+Students should use Docker Compose to deploy the multi-container application defined in their Docker Compose file.
+
+They should test the application to ensure it works as expected. For example, they can access the web application through a web browser and verify that it can read and write data to the database container.
+
+Encourage them to document the testing process and any issues encountered (if applicable).
+
+Step 5: Submission (10 points)
+
+Instruct students to submit their Docker Compose file, documentation of Docker Compose configurations, and details of the testing process through the designated submission method (e.g., email, learning management system).
+Grading Criteria:
+
+Proper selection of an application scenario that requires multiple containers.
+
+Creation of a well-structured Docker Compose file with appropriate definitions and configurations.
+
+Accurate description of how the containers interact within the Docker Compose file.
+
+Successful deployment of the multi-container application using Docker Compose.
+
+Successful testing of the application to ensure it works as expected.
+
+Quality of the submission, including documentation of Docker Compose configurations and the testing process.

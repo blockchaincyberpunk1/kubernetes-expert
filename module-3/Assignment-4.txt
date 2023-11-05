@@ -1,0 +1,36 @@
+Load Balancing with Services
+
+Objective: To learn how to set up load balancing for applications.
+
+Task: Assign students a scenario where they need to deploy a web application that requires load balancing across multiple pods. They should create a Kubernetes service and configure it to distribute traffic evenly among the pods. Students should then test the load balancing setup to ensure it works as expected.
+
+Instructions:
+
+Step 1: Web Application Deployment (10 points)
+
+Provide students with a simple web application or a sample application code that can be containerized and deployed on Kubernetes. Ensure the application can run on multiple pods.
+Step 2: Pod Deployment (10 points)
+
+Instruct students to deploy multiple instances of the web application as pods on a Kubernetes cluster. They should write the necessary YAML manifests for deploying pods.
+Step 3: Service Creation (20 points)
+
+Ask students to create a Kubernetes Service to load balance traffic to the deployed pods. They should choose the appropriate service type (e.g., ClusterIP, NodePort, LoadBalancer) based on the scenario.
+Step 4: Configuration and Testing (30 points)
+
+Students should configure the service to ensure that traffic is evenly distributed among the pods. They can use labels and selectors to target the pods.
+Instruct students to test the load balancing setup. They can use tools like curl or web browsers to access the web application via the service's cluster IP, NodePort, or external IP (if using LoadBalancer).
+Step 5: Load Testing (20 points)
+
+Encourage students to perform load testing on the web application to verify that the load balancing works under various traffic loads. They should document their test cases and results.
+Step 6: Documentation (10 points)
+
+Students should provide documentation explaining how they set up load balancing using Kubernetes services, any challenges they encountered, and how they resolved them.
+Grading Criteria:
+
+Correct deployment of pods and service creation.
+
+Accurate configuration of the service for load balancing.
+
+Thorough testing of the load balancing setup.
+
+Clear and comprehensive documentation of the configuration and testing process.

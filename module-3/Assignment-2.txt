@@ -1,0 +1,39 @@
+Horizontal Pod Autoscaling
+
+Objective: To understand how to implement horizontal pod autoscaling.
+
+Task: Provide students with a sample application that experiences varying levels of traffic. Ask them to set up horizontal pod autoscaling based on CPU utilization. They should write the necessary manifests and configure autoscaling policies, allowing pods to scale in and out automatically as traffic fluctuates.
+
+Instructions:
+
+Step 1: Sample Application (10 points)
+
+Provide students with a sample application that simulates varying levels of traffic. This could be a simple web application or microservice that experiences traffic spikes and lulls.
+Step 2: Initial Deployment (10 points)
+
+Instruct students to deploy the sample application on a Kubernetes cluster without autoscaling. They should write the necessary YAML manifests for deploying pods, services, and any other required resources.
+Step 3: Monitoring CPU Utilization (10 points)
+
+Ask students to monitor the CPU utilization of the deployed pods using kubectl top pods or other appropriate monitoring tools. They should identify periods of high CPU load and low CPU load.
+Step 4: Autoscaling Configuration (30 points)
+
+Students should configure horizontal pod autoscaling based on CPU utilization. They need to write the necessary YAML manifest for a HorizontalPodAutoscaler resource and specify the target CPU utilization percentage for autoscaling (e.g., 80% CPU utilization).
+Step 5: Testing Autoscaling (20 points)
+
+Instruct students to simulate traffic fluctuations on the sample application. They can use tools or scripts to generate increased traffic, causing CPU utilization to rise. Ask them to monitor the autoscaling behavior as the CPU utilization crosses the specified threshold.
+Step 6: Verification (10 points)
+
+Students should verify that pods are scaled out (replicas increased) during high CPU utilization and scaled in (replicas decreased) during low CPU utilization. They can use kubectl get hpa and kubectl get pods to observe the scaling activity.
+Step 7: Troubleshooting (10 points)
+
+In case of any issues with autoscaling or unexpected behavior, students should attempt to troubleshoot and resolve the problem. Encourage them to refer to Kubernetes documentation or seek assistance from instructors or peers.
+Step 8: Documentation (10 points)
+
+Students should document the autoscaling configuration, their testing process, and the results. They should also include any troubleshooting steps taken (if applicable).
+Grading Criteria:
+
+Accurate configuration of horizontal pod autoscaling.
+
+Successful verification of autoscaling behavior during traffic fluctuations.
+
+Effective troubleshooting skills (if necessary).

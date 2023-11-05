@@ -1,0 +1,36 @@
+Vertical Scaling with Pod Resources
+
+Objective: To explore vertical scaling by adjusting pod resource limits.
+
+Task: Provide students with a resource-intensive application. Ask them to deploy it on Kubernetes and then modify the pod resource limits to observe the impact on performance. Students should document their findings and explain how adjusting resource limits affects pod behavior.
+
+Instructions:
+
+Step 1: Resource-Intensive Application (10 points)
+
+Provide students with a resource-intensive application or workload. This could be a CPU or memory-intensive task, such as image processing, data analytics, or machine learning.
+Step 2: Initial Deployment (10 points)
+
+Instruct students to deploy the resource-intensive application on a Kubernetes cluster with default resource limits. They should write the necessary YAML manifests for deploying pods and any other required resources.
+Step 3: Monitoring Initial Performance (10 points)
+
+Ask students to monitor the performance of the deployed pods. They should gather data on CPU and memory utilization, response times, or any other relevant performance metrics.
+Step 4: Resource Limit Modification (30 points)
+
+Students should modify the resource limits (CPU and memory) of the pods. They can do this by updating the existing YAML manifests to specify resource requests and limits.
+Step 5: Performance Observations (20 points)
+
+Instruct students to observe how adjusting the resource limits affects the performance of the resource-intensive application. They should document any changes in CPU and memory utilization, response times, and overall system behavior.
+Step 6: Analysis and Documentation (20 points)
+
+Students should analyze their findings and explain the impact of resource limit modifications. They should discuss the trade-offs between setting resource limits too low (resulting in performance issues) and setting them too high (resulting in resource wastage).
+Step 7: Recommendations (10 points)
+
+Based on their observations, students should make recommendations for setting appropriate resource limits for the given application. They should consider factors like workload characteristics and cluster resources.
+Grading Criteria:
+
+Accurate modification of pod resource limits.
+
+Thorough documentation of performance observations and analysis.
+
+Clear recommendations for resource limit settings.

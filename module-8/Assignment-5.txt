@@ -1,0 +1,45 @@
+Helm Chart Creation and CI/CD Integration
+
+Objective: To create Helm charts and integrate them into a CI/CD pipeline.
+
+Task: Assign students a scenario where they need to create Helm charts for a complex application. They should also set up a CI/CD pipeline that automates the deployment of the application using these Helm charts. Students should provide Helm chart templates, CI/CD configuration, and demonstrate how their pipeline deploys the application.
+
+Instructions:
+
+Step 1: Choose an Application (5 points)
+
+Provide students with a choice of complex applications (e.g., a microservices architecture, a web application with multiple components) that they will work on throughout this assignment.
+Step 2: Create Helm Charts (20 points)
+
+Instruct students to create Helm charts for the chosen application. The Helm charts should include templates for deploying all necessary components, configurations, and dependencies. Students should ensure that their Helm charts are well-structured and follow best practices.
+Step 3: Set Up a Version Control Repository (10 points)
+
+Ask students to create a version control repository (e.g., Git repository) to store their Helm charts, CI/CD configuration, and application code (if applicable). They should commit their Helm charts to this repository.
+Step 4: Configure CI/CD Pipeline (20 points)
+
+Students should set up a CI/CD pipeline using a CI/CD tool of their choice (e.g., Jenkins, GitLab CI/CD, GitHub Actions). The pipeline should automate the deployment of the application using the Helm charts. It should include stages for building, packaging, and deploying the Helm charts.
+Step 5: Deployment Testing (15 points)
+
+Instruct students to thoroughly test their CI/CD pipeline to ensure that it correctly deploys the application using Helm charts. They should verify that the deployed application functions as expected.
+Step 6: Documentation (15 points)
+
+Students should provide comprehensive documentation that includes:
+Explanation of the Helm chart structure and templates.
+Details of the CI/CD configuration.
+Explanation of how the CI/CD pipeline works.
+Screenshots or examples demonstrating the CI/CD process.
+Any challenges faced and how they were overcome.
+Step 7: Presentation and Demonstration (15 points)
+
+Ask students to prepare a presentation or demonstration of their CI/CD pipeline and Helm chart deployment. Each student or group should present their work to the class, explaining the application, Helm chart structure, CI/CD setup, and deployment process.
+Grading Criteria:
+
+Successful creation of Helm charts for the chosen complex application.
+
+Accurate configuration of a CI/CD pipeline that automates deployment using Helm charts.
+
+Thorough testing of the CI/CD pipeline to ensure correct deployment.
+
+Quality and completeness of documentation explaining the Helm chart structure and CI/CD configuration.
+
+Clarity and effectiveness of the presentation or demonstration.

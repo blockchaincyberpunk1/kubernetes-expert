@@ -1,0 +1,54 @@
+Building a Stateful Application Operator
+
+Objective: To apply knowledge of StatefulSets, Persistent Volumes, and Operators.
+
+Task: Provide students with a scenario where they need to create an Operator for managing a stateful application (e.g., a messaging service). Instruct them to design and implement the Operator using StatefulSets, Persistent Volumes, and Custom Resource Definitions (CRDs). Students should demonstrate how their Operator automates the management of stateful workloads.
+
+Instructions:
+
+Step 1: Choose a Stateful Application (10 points)
+
+Provide students with a choice of stateful applications (e.g., a messaging service, a database, or a caching system) that they will manage using their Operator.
+Step 2: Operator Design (15 points)
+
+Instruct students to design the architecture of their Operator. They should outline how it will manage the chosen stateful application, including deployment, scaling, and data persistence.
+Step 3: Implement the Operator (30 points)
+
+Students should write code for the Operator using a programming language and framework of their choice (e.g., Go with the Operator SDK).
+
+Ensure that students create Custom Resource Definitions (CRDs) for their stateful application resources.
+
+Step 4: Operator Documentation (15 points)
+
+Ask students to create comprehensive documentation for their Operator. The documentation should include:
+
+Installation instructions.
+
+How to create custom resources for the stateful application.
+
+How the Operator manages stateful workloads, including deployment and scaling.
+
+How data persistence is handled using Persistent Volumes.
+
+Examples of using the Operator to deploy and manage the stateful application.
+
+Step 5: Testing and Validation (10 points)
+
+Students should thoroughly test their Operator, ensuring that it correctly deploys, scales, and persists data for the stateful application.
+
+They should provide evidence of successful testing.
+
+Step 6: Demonstration (10 points)
+
+Students should demonstrate how their Operator operates within a Kubernetes environment. This can include creating custom resources for the stateful application, observing automatic deployment and scaling, and ensuring data persistence.
+Grading Criteria:
+
+Successful design and implementation of a Stateful Application Operator.
+
+Proper definition and use of Custom Resource Definitions (CRDs) for the stateful application.
+
+Effective documentation that helps users understand and use the Operator to manage stateful workloads.
+
+Comprehensive testing and validation of the Operator's functionality.
+
+A successful demonstration of the Operator's operation within a Kubernetes cluster.

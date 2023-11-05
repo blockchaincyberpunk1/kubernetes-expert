@@ -1,0 +1,52 @@
+Using ConfigMaps for Application Configuration
+
+Objective: To understand how to use ConfigMaps for application configuration.
+
+Task: Assign students a scenario where they need to configure a complex Kubernetes application. They should create a ConfigMap with various configuration parameters, such as database connection strings, service URLs, or application settings. Students should then deploy the application pods and demonstrate how they can access and use the configuration data from the ConfigMap.
+
+Instructions:
+
+Step 1: Scenario and Application Setup (10 points)
+
+Describe a hypothetical scenario to students where they are tasked with deploying a complex Kubernetes application. Explain that the application requires a variety of configuration parameters, such as database connection details, API endpoints, and application-specific settings.
+
+Provide students with the source code or Docker images for the application they need to deploy. Ensure that the application code is designed to read configuration from environment variables.
+
+Step 2: ConfigMap Creation (25 points)
+
+Task students with creating a ConfigMap that contains the required configuration parameters. They should write a YAML manifest for the ConfigMap.
+
+Instruct students to populate the ConfigMap with sample configuration data based on the scenario you provided. This could include environment variables, application settings, or any other configuration that the application requires.
+
+Step 3: Deploying the Application (20 points)
+
+Explain to students how to deploy the application pods using Kubernetes manifests. They should create pod specifications that include volume mounts and environment variables to access the ConfigMap data.
+
+Ensure that students understand how to reference the ConfigMap in their pod specifications and how to set environment variables using the ConfigMap data.
+
+Step 4: Application Verification (25 points)
+
+Instruct students to deploy their application pods using the Kubernetes manifests they created.
+
+Task them with demonstrating that the application successfully reads and uses the configuration data from the ConfigMap. They should validate that the application behaves correctly based on the configuration.
+
+Step 5: Documentation and Reflection (20 points)
+
+Require students to create documentation that includes:
+
+The YAML manifest for the ConfigMap.
+The pod specifications showing how ConfigMaps are mounted and how environment variables are set.
+Screenshots or logs demonstrating that the application accessed and used the configuration data.
+Ask students to reflect on their experience and describe how using ConfigMaps simplified the configuration management process for their application.
+
+Grading Criteria:
+
+Accurate creation of the ConfigMap.
+
+Proper population of the ConfigMap with sample configuration data.
+
+Correct configuration of pods to access ConfigMap data.
+
+Successful demonstration of the application accessing and using the configuration data.
+
+Comprehensive documentation and reflection.

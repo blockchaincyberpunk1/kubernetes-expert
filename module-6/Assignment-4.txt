@@ -1,0 +1,59 @@
+Troubleshooting and Debugging
+
+Objective: To develop troubleshooting skills using monitoring and logging tools.
+
+Task: Present students with a faulty Kubernetes application and ask them to identify and resolve issues using monitoring and logging tools. They should use kubectl commands to inspect pods, view logs, and analyze metrics to diagnose and fix problems. Students should document the troubleshooting process.
+
+Instructions:
+
+Step 1: Faulty Kubernetes Application (10 points)
+
+Provide students with a Kubernetes application that has known issues. These issues can include performance problems, error states, or any other issues that can occur in a real-world scenario.
+Step 2: Troubleshooting Plan (15 points)
+
+Instruct students to create a troubleshooting plan before attempting to fix the issues. They should outline the steps they intend to follow, including what kubectl commands they will use and which logs or metrics they will inspect.
+Step 3: Troubleshooting (40 points)
+
+Students should use their troubleshooting plan to identify and resolve the issues with the Kubernetes application.
+
+They should use kubectl commands to inspect pod states, view container logs, check resource usage, and examine relevant metrics.
+
+Students should make notes of their observations and any changes they make to the application or cluster during the troubleshooting process.
+
+Step 4: Issue Resolution (15 points)
+
+Once students have identified the issues, they should implement necessary changes to resolve them. This may include adjusting configurations, scaling pods, or modifying resource allocations.
+
+Ensure they document the specific actions taken to resolve each issue.
+
+Step 5: Documentation (15 points)
+
+Instruct students to compile a detailed report documenting their troubleshooting process. The report should include the following:
+
+Description of the initial issues observed in the Kubernetes application.
+
+The troubleshooting plan outlining the steps they intended to follow.
+
+Detailed observations and findings during the troubleshooting process, including kubectl commands used, logs examined, and metrics analyzed.
+
+Actions taken to resolve each issue, including any changes made to the application or cluster.
+
+Any additional insights or lessons learned during the troubleshooting process.
+
+Step 6: Presentation (5 points)
+
+If feasible, students can present their troubleshooting process and findings to the class or submit a video demonstrating their troubleshooting steps and solutions.
+Step 7: Submission (5 points)
+
+Require students to submit their troubleshooting report, including any presentation materials if applicable.
+Grading Criteria:
+
+Successful identification of the issues affecting the Kubernetes application.
+
+Effective use of kubectl commands to inspect pods, view logs, and analyze metrics.
+
+Clear documentation of the troubleshooting process, including initial observations, planned steps, and actions taken to resolve issues.
+
+Comprehensive explanations of issue resolutions and any lessons learned.
+
+Presentation (if applicable) that effectively communicates the troubleshooting process and findings.

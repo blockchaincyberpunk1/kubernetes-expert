@@ -1,0 +1,43 @@
+Service Discovery with DNS
+
+Objective: To understand how DNS-based service discovery works in Kubernetes.
+
+Task: Assign students a scenario where they need to set up service discovery using DNS within a Kubernetes cluster. They should deploy multiple pods, each providing a different service, and demonstrate how other pods can discover and communicate with these services using DNS.
+
+Instructions:
+
+Step 1: Initial Pod Deployment (15 points)
+
+Provide students with a set of applications or microservices that are already containerized and ready for deployment as pods in a Kubernetes cluster. Ensure that each application runs as a separate pod.
+
+Instruct students to deploy these pods in a Kubernetes cluster using the appropriate YAML manifests. Each application should have its own pod specification.
+
+Step 2: DNS-Based Service Discovery (20 points)
+
+Explain to students that in Kubernetes, DNS is used for service discovery. Pods can discover and communicate with other services using their service names as DNS addresses.
+
+Assign students the task of deploying additional pods that need to communicate with the previously deployed applications. These new pods should demonstrate the use of DNS-based service discovery.
+
+For example, if there is an application A with the service name "app-a-service," students should deploy a new pod that communicates with "app-a-service" using DNS. They should provide YAML manifests for these new pods.
+
+Step 3: Testing and Verification (20 points)
+
+Ask students to demonstrate that the newly deployed pods can indeed communicate with the existing services using DNS-based service discovery. They should test connectivity and show that DNS resolution is functioning correctly.
+Step 4: Documentation (15 points)
+
+Students should provide documentation that includes the following:
+YAML manifests for the new pods demonstrating DNS-based service discovery.
+A description of how DNS-based service discovery works in Kubernetes.
+Test results showing successful communication between pods using DNS.
+Step 5: Discussion (30 points)
+
+Organize a class discussion or presentation where students share their findings and experiences. They should explain the importance of DNS-based service discovery in Kubernetes and discuss any challenges they encountered during the assignment.
+Grading Criteria:
+
+Correct deployment of initial pods and new pods.
+
+Successful demonstration of DNS-based service discovery between pods.
+
+Comprehensive documentation explaining the concept and showing test results.
+
+Active participation in the discussion or presentation.

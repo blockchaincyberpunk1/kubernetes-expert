@@ -1,0 +1,49 @@
+Deploying a Stateful Application
+
+Objective: To gain proficiency in using StatefulSets and Persistent Volumes.
+
+Task: Assign students a stateful application (e.g., a database) and instruct them to deploy it using StatefulSets in a Kubernetes cluster. They should configure Persistent Volumes for data storage. Students need to provide documentation on the deployment, including StatefulSets configuration and how data persistence is ensured.
+
+Instructions:
+
+Step 1: Selection of Stateful Application (10 points)
+
+Provide students with a choice of stateful applications (e.g., MySQL, PostgreSQL, MongoDB) or allow them to choose one of their preference. Ensure that the chosen application requires persistent data storage.
+Step 2: Kubernetes Cluster Setup (10 points)
+
+Ensure students have access to a Kubernetes cluster or guide them on setting up a local cluster using tools like Minikube.
+Step 3: StatefulSet Configuration (30 points)
+
+Instruct students to create a Kubernetes StatefulSet for the chosen application. They should configure the StatefulSet to manage the deployment and scaling of pods for the application.
+
+Students should define the appropriate number of replicas, container image, resource requests, and limits.
+
+Step 4: Persistent Volume Configuration (30 points)
+
+Ask students to configure Persistent Volumes (PVs) and Persistent Volume Claims (PVCs) to provide persistent storage for the stateful application. They should ensure that data is retained even if pods are rescheduled or recreated.
+
+Students should specify storage classes, access modes, and storage capacity according to the application's requirements.
+
+Step 5: Deployment and Testing (15 points)
+
+Students should deploy the StatefulSet to the Kubernetes cluster and verify that the application pods are created successfully.
+
+Instruct them to perform testing to confirm that data persistence is maintained across pod restarts.
+
+Step 6: Documentation (5 points)
+
+Require students to provide comprehensive documentation of their deployment, including:
+
+Configuration files for the StatefulSet, Persistent Volumes, and Persistent Volume Claims.
+
+A description of how data persistence is ensured, highlighting the use of Persistent Volumes.
+
+Grading Criteria:
+
+Successful deployment of a stateful application using a Kubernetes StatefulSet.
+
+Proper configuration of Persistent Volumes and Persistent Volume Claims for data persistence.
+
+Effective testing to verify data persistence.
+
+Clear and well-organized documentation of the deployment process.
